@@ -47,15 +47,20 @@ Crea formularios profesionales en minutos mediante drag & drop, sin necesidad de
 - Node.js 18+ 
 - NPM 8+
 
-### Instalación
+## Instalación
 
+
+
+### Clonar el repositorio
 ```bash
-# Clonar el repositorio
 git clone https://github.com/tu-usuario/vue-form-builder.git
 cd vue-form-builder
-
-# Instalar dependencias
+```
+### Instalar dependencias
+```bash
 npm install
-
-# Iniciar servidor de desarrollo
+```
+### Iniciar servidor de desarrollo
+```bash
 npm run dev
+```
