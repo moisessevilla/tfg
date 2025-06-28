@@ -1,0 +1,276 @@
+{
+  "id": "e5091de9-0810-41b1-a0c6-a3b5638e48da",
+  "name": "Membresía Gimnasio",
+  "description": "Formulario de inscripción para gimnasio con objetivos, horarios y plan de entrenamiento",
+  "elements": [
+    {
+      "id": "96689611-8f3b-4380-84d2-9958e81a23c4",
+      "type": "text-input",
+      "component": "TextInput",
+      "props": {
+        "label": "Nombre completo",
+        "placeholder": "Carlos Rodríguez",
+        "required": true,
+        "maxLength": null
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "26add18b-140a-4fbb-ab6a-7a6bc4fbccb3",
+      "type": "date",
+      "component": "DatePicker",
+      "props": {
+        "label": "Fecha de nacimiento",
+        "placeholder": "dd/mm/aaaa",
+        "required": true,
+        "min": null,
+        "max": null,
+        "format": "DD/MM/YYYY"
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "5d2689d8-e51e-4ead-8b68-fba9e9d84f24",
+      "type": "email",
+      "component": "EmailInput",
+      "props": {
+        "label": "Correo electrónico",
+        "placeholder": "usuario@ejemplo.com",
+        "required": true,
+        "pattern": "^[^@]+@[^@]+.[^@]+$"
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "905a546c-7b80-4d16-a41c-4dda8830bacf",
+      "type": "phone",
+      "component": "PhoneInput",
+      "props": {
+        "label": "Teléfono",
+        "placeholder": "+34 600 00 00 00",
+        "required": true,
+        "pattern": null
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "e91d15e5-1b29-4746-a066-9eddcd746788",
+      "type": "select",
+      "component": "SelectInput",
+      "props": {
+        "label": "Plan de membresía",
+        "placeholder": "",
+        "required": true,
+        "options": [
+          {
+            "value": "mensual",
+            "label": "Mensual - 35€"
+          },
+          {
+            "value": "trimestral",
+            "label": "Trimestral - 90€"
+          },
+          {
+            "value": "semestral",
+            "label": "Semestral - 160€"
+          },
+          {
+            "value": "anual",
+            "label": "Anual - 300€"
+          }
+        ]
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "6f8286eb-409b-4ad7-801e-e99e9a42946b",
+      "type": "checkbox",
+      "component": "CheckboxInput",
+      "props": {
+        "label": "Pérdida de peso",
+        "placeholder": "",
+        "required": false
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "caa5379c-2a25-47d3-842f-945a6a6e084a",
+      "type": "checkbox",
+      "component": "CheckboxInput",
+      "props": {
+        "label": "Ganancia de masa muscular",
+        "placeholder": "",
+        "required": false
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "bfcfa0a4-19a4-4eef-98bf-c68c8042c48f",
+      "type": "checkbox",
+      "component": "CheckboxInput",
+      "props": {
+        "label": "Mejorar resistencia",
+        "placeholder": "",
+        "required": false
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "aae1f9f3-d25f-470e-831f-78a7724d5fec",
+      "type": "checkbox",
+      "component": "CheckboxInput",
+      "props": {
+        "label": "Tonificación",
+        "placeholder": "",
+        "required": false
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "554641bc-119d-40f4-b82f-e8212847a8a3",
+      "type": "checkbox",
+      "component": "CheckboxInput",
+      "props": {
+        "label": "Rehabilitación",
+        "placeholder": "",
+        "required": false
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "2e7cb6c8-9501-4cb7-8f4d-b93c81296f5d",
+      "type": "radio",
+      "component": "RadioGroup",
+      "props": {
+        "label": "Horario preferido",
+        "placeholder": "",
+        "required": true,
+        "options": [
+          {
+            "value": "mañana",
+            "label": "Mañana (6:00 - 12:00)"
+          },
+          {
+            "value": "tarde",
+            "label": "Tarde (12:00 - 18:00)"
+          },
+          {
+            "value": "noche",
+            "label": "Noche (18:00 - 22:00)"
+          }
+        ]
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "6eed9f53-89a9-4fd0-8751-414ab48b11eb",
+      "type": "number",
+      "component": "NumberInput",
+      "props": {
+        "label": "Peso actual (kg)",
+        "placeholder": "70",
+        "required": false,
+        "min": 30,
+        "max": 200,
+        "step": 1
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "6c5e214d-9436-4e3d-85f5-08cbd367ec41",
+      "type": "number",
+      "component": "NumberInput",
+      "props": {
+        "label": "Altura (cm)",
+        "placeholder": "170",
+        "required": false,
+        "min": 100,
+        "max": 250,
+        "step": 1
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "2f51a29a-5e27-446f-8603-5586f24b09e1",
+      "type": "textarea",
+      "component": "TextArea",
+      "props": {
+        "label": "Condiciones médicas o lesiones",
+        "placeholder": "Indique cualquier condición médica relevante",
+        "required": false,
+        "rows": 4
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "2752f77a-5b1b-4f48-895a-6fabf7bcf17e",
+      "type": "checkbox",
+      "component": "CheckboxInput",
+      "props": {
+        "label": "Deseo contratar entrenador personal",
+        "placeholder": "",
+        "required": false
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "6f7a4569-b772-4a75-aa8f-f157eab724e3",
+      "type": "checkbox",
+      "component": "CheckboxInput",
+      "props": {
+        "label": "Acepto las normas del gimnasio",
+        "placeholder": "",
+        "required": true
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    }
+  ]
+}

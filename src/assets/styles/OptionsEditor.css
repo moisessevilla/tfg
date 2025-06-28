@@ -1,0 +1,160 @@
+.options-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.options-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.options-label {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 0.9rem;
+}
+
+.btn-add-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background 0.2s ease;
+}
+
+.btn-add-option:hover {
+  background: #2980b9;
+}
+
+.btn-icon {
+  font-size: 0.9rem;
+}
+
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option-item {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #e1e5e9;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+.option-inputs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input-group label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.option-input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: border-color 0.2s ease;
+}
+
+.option-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.btn-remove-option {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  flex-shrink: 0;
+}
+
+.btn-remove-option:hover:not(:disabled) {
+  background: #c0392b;
+}
+
+.btn-remove-option:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.options-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  background: #f1f3f4;
+  border-radius: 6px;
+  border: 1px solid #e1e5e9;
+}
+
+.preview-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #666;
+}
+
+.preview-select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.preview-select:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .option-item {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .btn-remove-option {
+    align-self: flex-end;
+    width: fit-content;
+  }
+
+  .options-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "id": "a6af3644-d167-4dd3-8e35-cbf3fc529310",
+  "name": "Inscripción Fútbol",
+  "description": "Formulario completo para inscripción en equipo de fútbol con información del jugador, experiencia y datos médicos",
+  "elements": [
+    {
+      "id": "b32b4799-4edf-4ca0-903a-31c058beecf0",
+      "type": "text-input",
+      "component": "TextInput",
+      "props": {
+        "label": "Nombre completo",
+        "placeholder": "Juan Pérez",
+        "required": true,
+        "maxLength": null
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "01691c78-f5e0-4f20-ac1a-4dee2e9c3cba",
+      "type": "date",
+      "component": "DatePicker",
+      "props": {
+        "label": "Fecha de nacimiento",
+        "placeholder": "dd/mm/aaaa",
+        "required": true,
+        "min": null,
+        "max": "2025-06-07",
+        "format": "DD/MM/YYYY"
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "f84b9991-56f9-4651-958e-643746269886",
+      "type": "email",
+      "component": "EmailInput",
+      "props": {
+        "label": "Correo electrónico",
+        "placeholder": "jugador@email.com",
+        "required": true,
+        "pattern": "^[^@]+@[^@]+.[^@]+$"
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "bfc72d0a-721f-417e-a230-c9fe46500194",
+      "type": "phone",
+      "component": "PhoneInput",
+      "props": {
+        "label": "Teléfono de contacto",
+        "placeholder": "+34 600 00 00 00",
+        "required": true,
+        "pattern": null
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "849b468a-fb34-457b-aa50-5618231b1683",
+      "type": "select",
+      "component": "SelectInput",
+      "props": {
+        "label": "Posición preferida",
+        "placeholder": "",
+        "required": true,
+        "options": [
+          {
+            "value": "portero",
+            "label": "Portero"
+          },
+          {
+            "value": "defensa",
+            "label": "Defensa"
+          },
+          {
+            "value": "centrocampista",
+            "label": "Centrocampista"
+          },
+          {
+            "value": "delantero",
+            "label": "Delantero"
+          }
+        ]
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "9ea30faa-8c92-4bb1-803a-1553aeaf3e01",
+      "type": "select",
+      "component": "SelectInput",
+      "props": {
+        "label": "Categoría",
+        "placeholder": "",
+        "required": true,
+        "options": [
+          {
+            "value": "benjamin",
+            "label": "Benjamín"
+          },
+          {
+            "value": "alevin",
+            "label": "Alevín"
+          },
+          {
+            "value": "infantil",
+            "label": "Infantil"
+          },
+          {
+            "value": "cadete",
+            "label": "Cadete"
+          },
+          {
+            "value": "juvenil",
+            "label": "Juvenil"
+          },
+          {
+            "value": "senior",
+            "label": "Senior"
+          }
+        ]
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "cbaa5d74-3122-4aa2-b587-3d54f9286fac",
+      "type": "number",
+      "component": "NumberInput",
+      "props": {
+        "label": "Años de experiencia",
+        "placeholder": "0",
+        "required": false,
+        "min": 0,
+        "max": 50,
+        "step": 1
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "98722599-41c7-4e04-8c4b-a1ecee2c9ac4",
+      "type": "text-input",
+      "component": "TextInput",
+      "props": {
+        "label": "Club anterior",
+        "placeholder": "Nombre del club",
+        "required": false,
+        "maxLength": null
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "23edae3c-9b7a-4ef2-960a-8e116cc51a07",
+      "type": "select",
+      "component": "SelectInput",
+      "props": {
+        "label": "Talla de camiseta",
+        "placeholder": "",
+        "required": true,
+        "options": [
+          {
+            "value": "xs",
+            "label": "XS"
+          },
+          {
+            "value": "s",
+            "label": "S"
+          },
+          {
+            "value": "m",
+            "label": "M"
+          },
+          {
+            "value": "l",
+            "label": "L"
+          },
+          {
+            "value": "xl",
+            "label": "XL"
+          },
+          {
+            "value": "xxl",
+            "label": "XXL"
+          }
+        ]
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "4039bf59-8bf0-45b8-9969-5c707c40804b",
+      "type": "number",
+      "component": "NumberInput",
+      "props": {
+        "label": "Número de dorsal preferido",
+        "placeholder": "10",
+        "required": false,
+        "min": 1,
+        "max": 99,
+        "step": 1
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "22c849d5-b9f6-4567-862e-098be936eae0",
+      "type": "textarea",
+      "component": "TextArea",
+      "props": {
+        "label": "Lesiones o condiciones médicas previas",
+        "placeholder": "Describa cualquier lesión o condición médica relevante",
+        "required": false,
+        "rows": 4
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "15cd1036-f413-40d7-a1c7-5dd1da2a080b",
+      "type": "checkbox",
+      "component": "CheckboxInput",
+      "props": {
+        "label": "Tengo seguro médico deportivo",
+        "placeholder": "",
+        "required": false
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "90e82924-628a-4ba8-a8ba-b4b053c2109f",
+      "type": "checkbox",
+      "component": "CheckboxInput",
+      "props": {
+        "label": "Adjunto certificado médico",
+        "placeholder": "",
+        "required": true
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "afa9c5ac-fd92-4b9f-804e-7db301bc159d",
+      "type": "checkbox",
+      "component": "CheckboxInput",
+      "props": {
+        "label": "Autorizo el uso de imágenes para fines deportivos",
+        "placeholder": "",
+        "required": true
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    },
+    {
+      "id": "ce953ed8-acf4-4c35-825e-36413f7c690f",
+      "type": "checkbox",
+      "component": "CheckboxInput",
+      "props": {
+        "label": "Acepto las normas del club",
+        "placeholder": "",
+        "required": true
+      },
+      "validation": {
+        "required": false,
+        "rules": []
+      }
+    }
+  ]
+}

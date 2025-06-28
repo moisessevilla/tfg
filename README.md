@@ -1,66 +1,39 @@
-# Creación de formularios dinámicos a partir de componentes básicos
+# tfg
 
-[![Vue.js](https://img.shields.io/badge/Vue.js-3.3-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-4.3-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Pinia](https://img.shields.io/badge/Pinia-2.1-ffd859?style=for-the-badge&logo=pinia&logoColor=black)](https://pinia.vuejs.org/)
+This template should help get you started developing with Vue 3 in Vite.
 
-> Constructor visual de formularios dinámicos sin código
+## Recommended IDE Setup
 
-Crea formularios profesionales en minutos mediante drag & drop, sin necesidad de programar.
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Descripción
+## Type Support for `.vue` Imports in TS
 
-**Vue** es una aplicación web que revoluciona la creación de formularios dinámicos mediante una interfaz visual intuitiva. Diseñada para usuarios sin conocimientos técnicos, permite construir formularios complejos arrastrando y soltando componentes, con validaciones avanzadas y lógica condicional.
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-### ¿Para quién es?
+## Customize configuration
 
-- **Empresas**: Digitaliza procesos sin depender del departamento IT
-- **Educadores**: Crea evaluaciones y encuestas personalizadas  
-- **Sector Salud**: Genera formularios médicos adaptados
-- **Administración**: Automatiza la recolección de datos
-- **Desarrolladores**: Prototipa formularios rápidamente
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Características Principales
+## Project Setup
 
-### Constructor Visual
-- **Drag & Drop intuitivo**: Arrastra componentes desde el panel lateral
-- **15 tipos de campos**: Texto, email, fecha, archivos, selectores, y más
-- **Vista previa en tiempo real**: Ve los cambios instantáneamente
-- **Panel de propiedades**: Configura cada campo sin código
-
-### Funcionalidades Avanzadas
-- **Validaciones inteligentes**: Email, teléfono, patrones personalizados
-- **Lógica condicional**: Muestra/oculta campos según respuestas
-- **Plantillas predefinidas**: Formularios deportivos listos para usar
-- **Exportación/Importación JSON**: Máxima portabilidad
-
-### Sin Dependencias
-- **100% Offline**: Funciona sin conexión a internet
-- **Sin servidor**: Todo se ejecuta en el navegador
-- **Datos locales**: Información segura en LocalStorage
-- **Costo cero**: Sin licencias ni suscripciones
-
-## Inicio Rápido
-
-### Requisitos Previos
-- Node.js 18+ 
-- NPM 8+
-
-## Instalación
-
-
-
-### Clonar el repositorio
-```bash
-git clone https://github.com/tu-usuario/vue-form-builder.git
-cd vue-form-builder
-```
-### Instalar dependencias
-```bash
+```sh
 npm install
 ```
-### Iniciar servidor de desarrollo
-```bash
+
+### Compile and Hot-Reload for Development
+
+```sh
 npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
 ```
