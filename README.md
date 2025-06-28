@@ -1,4 +1,4 @@
-# Creación de formularios básicos a partir de componentes básicos
+# Creación de formularios dinámicos a partir de componentes básicos
 
 [![Vue.js](https://img.shields.io/badge/Vue.js-3.3-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
