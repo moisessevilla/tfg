@@ -1,4 +1,4 @@
-# Vue Form Builder
+# Creación de formularios básicos a partir de componentes básicos
 
 [![Vue.js](https://img.shields.io/badge/Vue.js-3.3-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -11,7 +11,7 @@ Crea formularios profesionales en minutos mediante drag & drop, sin necesidad de
 
 ## Descripción
 
-**Vue Form Builder** es una aplicación web que revoluciona la creación de formularios dinámicos mediante una interfaz visual intuitiva. Diseñada para usuarios sin conocimientos técnicos, permite construir formularios complejos arrastrando y soltando componentes, con validaciones avanzadas y lógica condicional.
+**Vue** es una aplicación web que revoluciona la creación de formularios dinámicos mediante una interfaz visual intuitiva. Diseñada para usuarios sin conocimientos técnicos, permite construir formularios complejos arrastrando y soltando componentes, con validaciones avanzadas y lógica condicional.
 
 ### ¿Para quién es?
 
