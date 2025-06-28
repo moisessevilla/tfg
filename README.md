@@ -16,7 +16,7 @@ Crea formularios profesionales en minutos mediante drag & drop, sin necesidad de
 ### ¿Para quién es?
 
 - **Empresas**: Digitaliza procesos sin depender del departamento IT
-- **Educadores**: Crea evaluaciones y encuestas personalizadas  
+- **Educadores**: Crea evaluaciones y encuestas personalizadas
 - **Sector Salud**: Genera formularios médicos adaptados
 - **Administración**: Automatiza la recolección de datos
 - **Desarrolladores**: Prototipa formularios rápidamente
@@ -24,18 +24,21 @@ Crea formularios profesionales en minutos mediante drag & drop, sin necesidad de
 ## Características Principales
 
 ### Constructor Visual
+
 - **Drag & Drop intuitivo**: Arrastra componentes desde el panel lateral
 - **15 tipos de campos**: Texto, email, fecha, archivos, selectores, y más
 - **Vista previa en tiempo real**: Ve los cambios instantáneamente
 - **Panel de propiedades**: Configura cada campo sin código
 
 ### Funcionalidades Avanzadas
+
 - **Validaciones inteligentes**: Email, teléfono, patrones personalizados
 - **Lógica condicional**: Muestra/oculta campos según respuestas
 - **Plantillas predefinidas**: Formularios deportivos listos para usar
 - **Exportación/Importación JSON**: Máxima portabilidad
 
 ### Sin Dependencias
+
 - **100% Offline**: Funciona sin conexión a internet
 - **Sin servidor**: Todo se ejecuta en el navegador
 - **Datos locales**: Información segura en LocalStorage
@@ -44,24 +47,30 @@ Crea formularios profesionales en minutos mediante drag & drop, sin necesidad de
 ## Inicio Rápido
 
 ### Requisitos Previos
-- Node.js 18+ 
+
+- Node.js 18+
 - NPM 8+
 
 ## Instalación
 
-
 ### Clonar el repositorio
+
 ```bash
 git clone https://github.com/moisessevilla/tfg.git
 ```
+
 ```bash
 cd tfg
 ```
+
 ### Instalar dependencias
+
 ```bash
 npm install
 ```
+
 ### Iniciar servidor de desarrollo
+
 ```bash
 npm run dev
 ```
