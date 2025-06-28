@@ -1,0 +1,9 @@
+Licencia MIT
+
+Copyright (c) 2025 Moisés Sevilla Corrales
+
+Por la presente, se concede permiso gratuito a cualquier persona que obtenga una copia de este software y los archivos de documentación asociados (el "Software") para utilizarlo sin restricciones, incluyendo, entre otros, los derechos de uso, copia, modificación, fusión, publicación, distribución, sublicencia y/o venta de copias del Software, y para permitir que las personas a quienes se les proporciona el Software lo hagan, sujeto a las siguientes condiciones:
+
+El aviso de derechos de autor anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
+
+El software se proporciona "tal cual", sin garantía de ningún tipo, expresa o implícita, incluyendo, entre otras, las garantías de comerciabilidad, idoneidad para un propósito particular y no infracción. en ningún caso los autores o titulares de los derechos de autor serán responsables de ninguna reclamación, daño u otra responsabilidad, ya sea en una acción contractual, extracontractual o de otro tipo, que surja de, a partir de o en conexión con el software o el uso u otras operaciones en el software.
